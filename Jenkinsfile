@@ -29,7 +29,11 @@ pipeline {
             }
         }      
         
-        
+    stage('Hook test') {
+            steps {
+                echo 'Hook testing'
+            }
+        }        
         
         
         
